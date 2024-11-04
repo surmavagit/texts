@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,7 @@
             margin-left: 10%;
             margin-right: 10%;
         }
-        h1, h2 {
+        h1, h2, h3 {
             text-align: center;
         }
         footer {
@@ -23,82 +23,66 @@
             background-color: silver;
             padding: 1rem;
         }
-        .titlepage {
-            border: solid;
-            width: 50ch;
-            padding-block-start: 2ch;
-            padding-block-end: 2ch;
-            margin: 4ch auto;
-            line-height: 1.8rem;
-        }
         .uppercase {
             text-transform: uppercase;
-            letter-spacing: 0.5rem;
-        }
-        .smallcaps {
-            font-variant-caps: small-caps;
-            letter-spacing: 0.5rem;
-        }
-        .firstletter {
-            float: inline-start;
-            font-size: 3rem;
-            line-height: 2rem;
-            letter-spacing: 0.3rem;
-        }
-        .large {
-            font-size: 2.5rem;
-            letter-spacing: 1.5rem;
-        }
-        .normal {
-            font-size: 1rem;
-            font-weight: normal;
-        }
-        .italic {
-            font-style: italic;
-        }
-        .center {
-            text-align: center;
-        }
-        .right {
-            text-align: right;
-        }
-        .left {
-            text-align: left;
         }
         .block {
             display: block;
-            margin-block-start: 1rem;
         }
-        .pagenum {
-            position: absolute;
-            left: 92%;
+        .italic {
+            font-style: italic;
+            font-weight: normal;
         }
-        .pg-brk {
-            page-break-before: always;
+        h3 + p::first-letter {
+            font-size: 2rem;
+            letter-spacing: 0.2rem;
+            line-height: 1rem;
         }
-        hr.pg-brk {
-            border-block-start: thick solid;
-            margin-block-end: 2rem;
-        }
-        table {
-            border-collapse: collapse;
-        }
-        th + th, td + td {
-            padding-inline-start: 0.5rem;
-            border-inline-start: solid;
-        }
-        th:first-child, td:first-child {
-            padding-inline-end: 0.5rem;
+        .smallcaps {
+            font-variant-caps: small-caps;
+            letter-spacing: 0.2rem;
         }
         </style>
     </head>
     <body>
         <h1>Théorie des loix civiles</h1>
-        <p>Auteur: Simon-Nicholas Henri Linguet</p>
-        <p>Publication originale: 1774</p>
-        <h2>LIVRE PREMIER. Des Loix & de la Justice en général: de leur origine & de leurs effets.</h2>
-        <h3>CHAPITRE PREMIER. Pourquoi les loix sont nécessaires.</h3>
-        <p>La nature crie dans tous les cœurs; elle montre à tous les yeux que les hommes naissent libres & parfaitement égaux. Elle leur donne à tous indistinctement des bras pour se défendre, des sens pour prévoir les dangers, ou pour découvrir leur nourriture, des mains pour la saisir, des organes pour perpétuer leur esресе.</p>
+        <div lang="en">
+            <p>Author: Simon-Nicholas Henri Linguet</p>
+            <p>Language: French</p>
+            <p>Original publication: 1774 (second edition)</p>
+            <p>Release date: 4 November 2024</p>
+            <p>
+                Credits: This ebook was produced for <a href="https://theoriesofvalue.com/">Theories of Value</a>
+                from images provided by Google Books <a href="https://www.google.com/books/edition/TH%c3%89ORIE_DES_LOIX_CIVILES/dLXoSPXaTIAC">Tome I</a>, <a href="https://www.google.com/books/edition/THÉORIE_DES_LOIX_CIVILES/wpRtf4W5uSAC">Tome II</a>, <a href="https://www.google.com/books/edition/THÉORIE_DES_LOIX_CIVILES/RjtQs8UKmrEC">Tome III</a>.
+                Proofreading and HTML markup by George Surmava
+            </p>
+            <section>
+                <h2>Transcriber's note</h2>
+                <p>The first edition of the text was divided into five books. In the second edition the author united the first two books, but the last book is still entitled "book five", "Livre cinquieme". The correct number is used in the table of contents.</p>
+            </section>
+        </div>
+        <h2 class="uppercase">Table des chapitres</h2>
+        <ul>
+            <li>Discours Préliminaire</li>
+            <li><a href="#livre-i"><span class="uppercase">Livre premier.</span> Des Loix & de la Justice en général: de leur origine & de leurs effets.</a></li>
+            <ol type="I">
+                <li><a href="#chap-i">Pourquoi les loix sont nécessaires.</a></li>
+                <li><a href="#chap-ii">Des différents Systêmes imaginés sur l'origine des loix & de la société.</a></li>
+                <li><a href="#chap-iii">De la véritable origine de la société.</a></li>
+                <li><a href="#chap-iv">Comment le développement de la Société a nécessité celui des loix.</a></li>
+                <li><a href="#chap-v">Esprit des premieres loix.</a></li>
+                <li><a href="#chap-vi">Justification de ce qui précede.</a></li>
+                <li><a href="#chap-vii">Nouvelle preuve de ce qui précede, tirée de la rigueur des anciennes loix.</a></li>
+                <li><a href="#chap-viii">Effet des loix.</a></li>
+                <li><a href="#chap-ix">Du droit naturel. Que le véritable droit naturel ne peut pas exister avec la Société. Ce que c'est que celui à qui l'on donne ce nom. Division de cet ouvrage.</a></li>
+            </ol>
+            <li><span class="uppercase">Livre second.</span> Du développement des loix relativement au Mariage.</li>
+            <li><span class="uppercase">Livre troisieme.</span> Du développement des loix relativement à l'ordre intérieur des familles, & à la transmission des biens par succession, ou par testament.</li>
+            <li><span class="uppercase">Livre quatrieme.</span> Du développement des loix relativement au pouvoir des maîtres sur leurs esclaves.</li>
+        </ul>
+        <h2 id="livre-i"><span class="block uppercase">Livre premier.</span><span class="italic">Des Loix & de la Justice en général: de leur origine & de leurs effets.</span></h2>
+        <h3 id="chap-i"><span class="block uppercase">Chapitre premier.</span><span class="italic">Pourquoi les loix sont nécessaires.</span></h3>
+        <p><span class="smallcaps">La</span> nature crie dans tous les cœurs; elle montre à tous les yeux que les hommes naissent libres & parfaitement égaux. Elle leur donne à tous indistinctement des bras pour se défendre, des sens pour prévoir les dangers, ou pour découvrir leur nourriture, des mains pour la saisir, des organes pour perpétuer leur esресе.</p>
         <p>Chaque individu jouit sans la dépendance d'un autre des secours nécessaires pour la conservation physique. Excepté l'enfance, où la tendresse des meres est obligée chez nous, comme chez les autres animaux, de suppléer à la foiblesse des petits, il n'y a point sur la terre d'être plus robuste, plus vivace, plus facile à nourrir, plus exactement libre que l'homme supposé dans son état primitif. Sa destinée dans cet état seroit de naître sans liens, de vivre sans remords, & de mourir sans effroi.</p>
         <p>Il ne s'agit pas ici d'examiner s'il a bien ou mal fait d'en sortir, s'il auroit été le maître d'y rester, si l'on peut penser raisonnablement qu'il s'y soit jamais trouvé.</p>
         <p>Il n'y est plus: il ne sauroit y rentrer. Les plaisirs, les besoins, les maladies, tous ces apanages funestes de la condition actuelle le retiennent dans la société de ses pareils, & le soumettent à toutes les especes de sujétions qu'elle produit. Il ne peut plus s'en écarter sans périr. Peut-être y trouve-t-il quelques ressources que sa situation présente lui rend nécessaires: mais il les paie bien par le sacrifice qu'il fait de son innocence & de la liberté.</p>
@@ -117,8 +101,8 @@
         <p>Malheur à l'homme fier & robuste, qui dédaignant l'avilissement de la société, & consentant à ne rien tirer d'elle, iroit reprendre dans les lieux les plus sauvages l'ancienne dignité de son espece. Il y seroit bientôt poursuivi par ses semblables mêmes qui se font un jeu d'en aller massacrer les habitants. Son sort le plus doux feroit de se voir ramené comme une bête rare vers les villes qu'il auroit fuies, d'y être exposé en spectacle par l'avarice, & d'y servir de jouer à la curiosité.</p>
         <p>Il faut donc renoncer à ces chimeres de liberté, d'indépendance. Il faut désormais conformer sa conduite aux principes des conventions civiles. Ce n'est plus que par elles qu'on peut conserver ses jouissances ou en acquérir. C'est une nécessité de se livrer à l'esprit d'intérêt, de se résoudre, par le plus pressant de tous les motifs, à combattre contre l'intérêt du reste des hommes animé par le même prinсіре.</p>
         <p>De la naissent des projets opposés, des manœuvres secretes, des violences ouvertes. On ne sauroit entrer dans un chemin qu'on ne s'y sente pressé entre une foule de concurrents, qui tous travaillent à s'en écarter les uns les autres. Il en résulteroit bientôt des combats sanglants, si la politique ne venoit jeter entre les hommes la <i>justice</i> & les <i>loix</i>, comme on sépare deux essaims acharnés en leur lançant un peu d'eau & de poussiere.</p>
-        <h3>CHAPITRE II. Des différents Systêmes imaginés sur l'origine des loix & de la société.</h3>
-        <p>Les <i>loix</i> sont la défense intimée à tout individu de toucher à ce qui appartient à un autre, sans le consentement du premier possesseur. C'est ce qui constitue la <i>propriété</i>. La <i>justice</i> est tout à la fois l'opinion qui rend cette défense respectable, & le pouvoir par lequel quiconque oseroit céder à l'envie de l'enfreindre, seroit forcé de la respecter. Ce sont là les deux grands ressorts de l'ordre social.</p>
+        <h3 id="chap-ii"><span class="block uppercase">Chapitre II.</span><span class="italic">Des différents Systêmes imaginés sur l'origine des loix & de la société.</span></h3>
+        <p><span class="smallcaps">Les</span> <i>loix</i> sont la défense intimée à tout individu de toucher à ce qui appartient à un autre, sans le consentement du premier possesseur. C'est ce qui constitue la <i>propriété</i>. La <i>justice</i> est tout à la fois l'opinion qui rend cette défense respectable, & le pouvoir par lequel quiconque oseroit céder à l'envie de l'enfreindre, seroit forcé de la respecter. Ce sont là les deux grands ressorts de l'ordre social.</p>
         <p>On demande comment cet ordre a pu s'introduire dans le monde, comment des êtres nés indépendants & isolés ont pu, ou concevoir le projet d'assujettir leurs pareils, ou se prêter à une sujétion qui leur enlevoit l'usage de toutes leurs facultés. Je dois répondre avant tout à cette question. C'est dans la solution de cette espece d'énigme que l'on trouve l'origine des convencions, ou de l'état social qui seroit incompréhensible sans cela.</p>
         <p>De tous les écrivains qui ont hasardé des écrits sur la politique, il n'y en a aucun qui n'ait rédigé son systême sur la formation primitive de la <i>société</i>. L'imagination s'est tout permis sur ce sujet, dont il ne reste pas de monuments capables de la captiver. Elle a peu consulté la raison qui, seule, auroit pu la guider avec quelque certitude: mais la raison semble ne présenter que des vérités tristes, & presque tous les hommes leur préferent des chimeres brillantes.</p>
         <p>Les uns ont attribué l'origine de la société à la crainte, d'autres à l'ambition  ; les uns l'ont vu naître de la violence, d'autres de la liberté: d'autres ont cru la voir sortir du seinmême de la nature, & se sont persuadés que les enfants avoient été les premiers individus assujettis. Le P. de <i>Montesquieu</i> lui donne l'amour & la timidité pour parents.</p>
@@ -137,8 +121,8 @@
         <p>Quel est le but de tous ses membres? c'est de multiplier leurs jouissances? Aux dépens de qui exécutent-ils le projet qui vit dans tous les cœurs? aux dépens des plus foibles ou des moins adroits? Ces possessions du plus fort & du plus habile ne s'accroissent que des portions qu'il enleve à ceux qui ont moins de vigueur ou d'industrie.</p>
         <p>La violence, il est vrai, est bannie aujourd'hui de particuliers à particuliers; mais il n'y a point encore d'autre moyen d'augmentation d'empire à empire: les conquérants se disputent la propriété des hommes autant que celles des terres qu'ils cultivent: le guerrier hardi qui communément est pauvre, & par cela même intrépide, finit toujours par subjuguer le cultivateur opulent, ou le commerçant laborieux, qui sontmous & efféminés parce qu'ils ont des trésors à perdre. Voilà précisément ce qui est arrivé dès le commencement des siecles, & ce qui a produit la société.</p>
         <p id="chapitre-ii-a"><a href="#chapitre-ii-a-source">(a)</a> <i>Esprit des loix</i>, chap. ?</p>
-        <h3>CHAPITRE III. De la véritable origine de la société</h3>
-        <p>Tous les monuments anciens, tant sacrés que profanes, nous montrent le genre humain divisé dès l'origine en deux portions. Nous trouvons toujours des pasteurs paisibles qui vivent de lait, ou des chasseurs violents qui se nourrissent de la chair & du fang.</p>
+        <h3 id="chap-iii"><span class="block uppercase">Chapitre III.</span><span class="italic">De la véritable origine de la société.</span></h3>
+        <p><span class="smallcaps">Tous</span> les monuments anciens, tant sacrés que profanes, nous montrent le genre humain divisé dès l'origine en deux portions. Nous trouvons toujours des pasteurs paisibles qui vivent de lait, ou des chasseurs violents qui se nourrissent de la chair & du fang.</p>
         <p>Quelle qu'ait été l'époque de l'arc d'apprivoiser les troupeaux, il est sûr que ses premiers inventeurs ont dû songer à en recueillir le fruit exclusivement. Plus leur découverte étoit précieuse, plus il étoit naturel qu'ils voulussent en profiter seuls. Plus l'abondance qui suivoit ces familles industrieuses étoit douce, plus elles devoient se proposer de la concentrer autour d'elles.</p>
         <p>Il leur étoit permis de regarder l'avarice comme une vertu, & les partages comme une perte. Chacune dut donc se séparer. Chacune alla s'établir dans les endroits les plus propres à l'exercice des nouveaux talents que l'expérience lui avoit procurés.</p>
         <p>Les vallées fertilisées ordinairement par des rivieres ou des ruisseaux, couvertes d'herbes salutaires, dérobées à la vue par des montagnes, offroient un asyle commode pour ces êtres malheureux à qui un commencement de richesses rendoit déjà leurs pareils redoutables. Ils alloient y cacher leur inquiétude & leurs secrets. Les deux principaux sentiments dont ils devoient être affectés, étoient le plaisir de jouir de leur nouvelle aisance, & la crainte de la perdre. Ces deux-là en produisoient un troisieme, l'amour de la solitude, la répugnance à publier un bonheur que les témoins auroient pu être tentés de troubler.</p>
@@ -156,8 +140,8 @@
         <p>L'égalité étoit encore parfaite .Mais pour la détruire, il ne falloit qu'un hasard. Pour faire pencher la balance, il suffisoit d'une chasse malheureuse. La façon de vivre des uns les exposoit souvent à la disette: celle des autres les entretenoit dans l'abondance. Il étoit impossible que tôt ou tard cette différence n'occasionât un combat, & l'on en devine déjà les suites.</p>
         <p>Une de ces meutes féroces que nous avons désignées sous le nom d'<i>hommes chasseurs</i>, passa, après une battue inutile, à la vue des troupeaux apprivoisés, qui environnoient une des familles dont nous venons de parler. Elle ne dut pas les appercevoir sans envie. La faim excitée par l'aspect des objets propres à la satisfaire, lui fit regarder cette séparation particuliere comme une infraction du droit naturel, ou, si l'on veut, comme une occasion dont il étoit bon de profiter.</p>
         <p>Tous ceux qui la composoient fondirent sur ces troupeaux, que le propriétaire éperdu ne pouvoit pas même songer à défendre. Ils les massacrerent sans opposition, & les dévorerenc sans remords. Ainsi, par un exemple toujours renouvellé depuis, la richesse se trouva dès-lors trop foible contre l'indigence, & ceux qui possédoient tout furent dès le commencement dépouillés par ceux qui n'avoient rien.</p>
-        <h3>CHAPITRE IV. Comment le développement de la Société a nécessité celui des loix.</h3>
-        <p>CETTE invasion fut le moment fatal à la tempérance des uns, & à la liberté des autres. Ces dépouilles sanglantes devinrent pour les ravisseurs le fruit funeste qui leur dessilla les yeux, & les fit rougir de leur ignorance. En contemplant le produit de l'injustice, ils se familiariserent avec elle. Le sang dont ils se rassasioient, eut pour eux la même vertu que celui de ce <i>centaure</i> qui empoisonna <i>Hercule</i>.</p>
+        <h3 id="chap-iv"><span class="block uppercase">Chapitre IV.</span><span class="italic">Comment le développement de la Société a nécessité celui des loix.</span></h3>
+        <p><span class="smallcaps">Cette</span> invasion fut le moment fatal à la tempérance des uns, & à la liberté des autres. Ces dépouilles sanglantes devinrent pour les ravisseurs le fruit funeste qui leur dessilla les yeux, & les fit rougir de leur ignorance. En contemplant le produit de l'injustice, ils se familiariserent avec elle. Le sang dont ils se rassasioient, eut pour eux la même vertu que celui de ce <i>centaure</i> qui empoisonna <i>Hercule</i>.</p>
         <p>Il alluma dans leurs veines une soif que rien ne put éteindre; il y mit les passions en mouvement; il les développa, comme ces liqueurs ardentes, qui enflamment les matieres combustibles, sur lesquelles on les verse. De leur choc, de la fermentation qui en fut la suite, naquit une lumiere affreuse qui fit distinguer les charmes de la tyrannie à ces hommes grossiers qui ne la connoissoient point, & les éclaira sur les moyens de l'établir.</p>
         <p>En dévorant leur proie, les levres & les mains encore teintes de sang, en portant à leur bouche ces entrailles palpitantes, ils vinrent à réfléchir sur l'agrément qu'il y auroit à trouver tous les jours une subsistance aussi commode. Ils comparoient les dangers & la fatigue de la chasse aux bêtes rusées ou cruelles, avec la facilité d'en saisir à chaque instant quel qu'une de celles qu'ils voyoient si douces & si apprivoisées. Ils en vinrent à se trouver malheureux dans leur état présent, & à desirer d'en sortir.</p>
         <p>Cette idée auroit dû les conduire à apprendre eux-mêmes l'art dont ils sentoient l'utilité. Elle devoit les disposer à s'associer à des travaux donc les fruits leur paroissoient si doux. Mais l'ignorance & la paresse, naturelles à l'homme, ne leur permirent point d'en former le projet. Ils en imaginerent un beaucoup plus facile, & l'exécuterent.</p>
@@ -168,8 +152,8 @@
         <p>Celui-ci eut bientôt des compagnons, comme on peut le croire. Ceux qui profitoient de son travail sentirent que, pour le rendre plus fructueux, il falloit lui donner des aides. Ils en chercherent dans les lieux semblables à celui où ils l'avoient trouvé lui même. Dorénavant, au lieu de se fatiguer à la chasse des bêtes sauvages, ils n'allerent plus qu'à celle des hommes qui savoient les apprivoiser. Ils en rassemblerent autant qu'ils le purent dans des lieux où il ne leur étoit pas facile de s'échapper.</p>
         <p>Pour assurer mieux leur dégradation, ils leur interdirent l'usage des armes. Ils se chargerent de les défendre contre les insultes des animaux féroces. Imitant le chat-huant de la fable, qui nourrissoit dans un tronc d'arbre des souris estropiées pour les dévorer un jour, ces brigands avides veillerent à écarter tous les dangers des familles déshonorées & captives dont ils regardoient l'existence même comme leur bien.</p>
         <p>Cette opération réitérée dans tous les endroits où il se trouvoir des créatures humaines, occasiona différentes peuplades, des colonies plus ou moins considérables, où le grand nombre continua d'être subordonné au petit, où la force se conserva le droit de dévorer le fruit des travaux de la foiblesse. De là naquirent, comme on voit, les véritables obligations de la societé, dont tous les devoirs peuvent se rapporter à deux points, commander & obéir.</p>
-        <h3>CHAPITRE V. Esprit des premieres loix.</h3>
-        <p>Jusque-la il n'avoit point fallu de loix dans le monde. Au moins il n'en avoit point fallu d'autres que celles qui s'observent, comme nous l'avons dit, entre les loups & les renards, quand ils sont parvenus à s'emparer en commun d'un mouton ou d'un lapin. Une convention tacite donnoit à chaque chasseur la part qui lui revenoit dans la prise. La poursuivre, l'atteindre, la déchirer, voilà à peu près à quoi se bornoient toutes les fonctions sociales, ce qui ne composoit pas un code fort étendu.</p>
+        <h3 id="chap-v"><span class="block uppercase">Chapitre V.</span><span class="italic">Esprit des premieres loix.</span></h3>
+        <p><span class="smallcaps">Jusque-la</span> il n'avoit point fallu de loix dans le monde. Au moins il n'en avoit point fallu d'autres que celles qui s'observent, comme nous l'avons dit, entre les loups & les renards, quand ils sont parvenus à s'emparer en commun d'un mouton ou d'un lapin. Une convention tacite donnoit à chaque chasseur la part qui lui revenoit dans la prise. La poursuivre, l'atteindre, la déchirer, voilà à peu près à quoi se bornoient toutes les fonctions sociales, ce qui ne composoit pas un code fort étendu.</p>
         <p>Mais quand les douceurs attachées à la propriété eurent fait faire des réflexions sur les moyens de la conserver, quand la défiance contre les nouveaux sujets eut rendu les despotes plus ingénieux & plus adroits, quand la premiere violence eut une fois donné une secousse à l'esprit humain, ses progrès furent aussi rapides que son engourdissement avoit été long. Chaque nouveau pas nécessitoit des lumieres, & les procuroit. Les hommes alloient de connoissance en connoissance, comme ces voyageurs qui, en avançant sur une montagne, voient l'horizon s'étendre & se reculer pour eux, à mesure qu'ils approchent du sommet.</p>
         <p>Dans les premiers moments la propriété avoit pu rester commune sans danger. Mais en augmentant, elle devenoit onéreuse. On sentit bientôt la nécessité de la restreindre pour l'affermir. La quantité des rapports se multiplioit avec les possessions. La différence des goûts, celle des humeurs & des talents faisoit éclorre le principe de la division sur les branches mêmes de l'association. L'expérience faisoit sentir que la communauté n'est bonne que quand il s'agit de détruire; mais qu'elle devient pernicieuse, dès qu'il est question de conserver.</p>
         <p>Ces esclaves, ces troupeaux qui composoient le domaine général, en continuant à appartenir à tout le monde, n'auroient appartenu à personne. Une dissipation entiere auroit été le fruit de cette espece d'abandon. Il étoit nécessaire de fixer à qui les uns devoient répondre, & par qui les autres seroient consommés, sans quoi l'acquisition alloit devenir plus funeste par les combats qu'elle ne pouvoit manquer d'occasioner, qu'avantageuse par les commodités qu'elle procuroit. Il fallut donc procéder aux partages, & cette opération en produisit une autre. Après avoir assigné à chacun sa part, il fallut lui en assurer la possession.</p>
@@ -177,8 +161,8 @@
         <p>Ces inconvénients frapperent les esprits les plus éclairés. Ils chercherent à y trouver un remede. C'étoit un art tout neuf qu'ils créoient. Mais comme c'est presque toujours la science qui égare, & que la vérité n'est jamais si facile à découvrir, que quand elle est éloignée des docteurs, ils virent sur le champ quelle route il falloit prendre.</p>
         <p>Ils sentoient qu'une premiere violence étoit incontestablement nécessaire. Ils ne pouvoient pas la désavouer, puisqu'elle seule fondoit tous leurs droits. Mais ils voyoient aussi qu'il falloit en prévenir une seconde qui seroit retombée sur eux. Ils concevoient que l'usurpation primitive devoit être regardée comme un titre sacré: mais ils n'appercevoient pas moins clairement qu'il falloit proscrire toute usurpation nouvelle, qui auroit pu contredire l'ancienne, & la détruire.</p>
         <p>Pour y réussir, ils proposerent de n'autoriser que les brigandages qui se feroient en commun, & de punir sévérement ceux qu'on oseroit se permettre en particulier. D'après leurs insinuations, on statua que la société auroit droit de tout prendre, mais que les membres se dessaisiroient de ce droit, dès qu'ils seroient seuls. On convint que chacun posséderoit tranquillement la part d'hommes, de troupeaux, & ensuite de terres qui lui seroit échue; & que quiconque tenteroit de la lui enlever, seroit déclaré ennemi public & poursuivi en cette qualité.</p>
-        <h3>CHAPITRE VI. Justification de ce qui précede.</h3>
-        <p>Ce systême si naturel, si simple, si c'est pourtant un systême, M. le P. de <i>Montesquieu</i> ne l'approuve pas; il lui reproche de manquer de raison. Suivant lui, c'est choquer le bon sens que de prêter d'abord aux hommes le desir de se subjuguer les uns les autres. <i>Cette idée de l'empire & de la domination, dit-il, est si composée, & depend de tant d'autres idées, que ce ne seroit pas celle que les hommes auroient eue d'abord <a id="chapitre-vi-a-source" href="#chapitre-vi-a">(a)</a>.</i> </p>
+        <h3 id="chap-vi"><span class="block uppercase">Chapitre VI.</span><span class="italic"> Justification de ce qui précede.</span></h3>
+        <p><span class="smallcaps">Ce</span> systême si naturel, si simple, si c'est pourtant un systême, M. le P. de <i>Montesquieu</i> ne l'approuve pas; il lui reproche de manquer de raison. Suivant lui, c'est choquer le bon sens que de prêter d'abord aux hommes le desir de se subjuguer les uns les autres. <i>Cette idée de l'empire & de la domination, dit-il, est si composée, & depend de tant d'autres idées, que ce ne seroit pas celle que les hommes auroient eue d'abord <a id="chapitre-vi-a-source" href="#chapitre-vi-a">(a)</a>.</i> </p>
         <p>Ce n'est certainement pas celle qui a dû les frapper dès l'instant de leur existence. Leur premier soin a été sans doute de se pourvoir de nourriture; c'est le plus pressant de tous les besoins, & celui auquel tous les autres cedent <i><a id="chapitre-vi-b-source" href="#chapitre-vi-b">(b)</a></i>. Mais le second a dû être de chercher à s'en pourvoir sans travail. Or ils n'ont pu y parvenir qu'en s'appropriant le fruit d'un travail étranger. Il est donc naturel qu'ils aient conspiré contre la liberté qui étoit un obstacle à leurs vues, dès qu'ils ont connu cet obstacle. Il est naturel qu'ils aient entrepris de la détruire, dès qu'ils ont cru pourvoir le faire sans risque, & que l'occasion leur en a été offerte par le hasard. </p>
         <p>Les premiers conquérants n'ont pas eu dessein, sans doute, de se faire de puissants monarques. Ces hommes encore sauvages, nus, ou tout au plus à demi couverts de peaux de bêtes, ne se proposoient point de remplir la terre du bruit de leurs actions; ils n'ambitionnoient pas le droit de jouir, dans l'opulence & dans la mollesse, des adulations d'une foule de courtisans.</p>
         <p>Ils ne songeoient qu'à mener une vie tranquille & sans inquiétude, à mettre, entr'eux & le besoin, un certain nombre d'hommes qui pût les garantir de ses atteintes. Ils ne se faisoient despotes que pour être impunément paresseux, & rois, que pour avoir de quoi vivre: ce qui retrécit & simplifie beaucoup, comme on voit, l'idée de la domination.</p>
@@ -191,8 +175,8 @@
         <p>Quand ils ont pensé eux-mêmes à retrancher par le moyen des loix une partie de leur liberté, c'est que s'étant emparés de celle d'un grand nombre d'autres hommes, ils en étoient accablés. Ils ont cherché à se soulager par ce retranchement, comme des voleurs après avoir dépouillé plusieurs passants de leurs habits, en jettent une partie dans le chemin, pour s'enfuir plus légérement avec le reste.</p>
         <p id="chapitre-vi-a"><a href="#chapitre-vi-a-source">(a)</a> <i>Esprit des loix</i>, liv. I.</p>
         <p id="chapitre-vi-b"><a href="#chapitre-vi-b-source">(b)</a> M. le <i>président de Montesquieu</i> n'en fait que la seconde loi naturelle; c'est évidemment la premiere, & le fondement de toutes les autres.</p>
-        <h3>CHAPITRE VII. Nouvelle preuve de ce qui précede, tirée de la rigueur des anciennes loix.</h3>
-        <p>Si l'on doutoit encore de l'origine que je donne aux loix, il seroit facile d'achever de se convaincre qu'elle est juste, en examinant les premieres ordonnances légales, dont l'histoire nous ait conservé le souvenir. On voit qu'elles sont toutes d'une sévérité effrayante. La mort étoit le seul châtiment qu'elles prononçassent. Elles n'admettoient point de distinction entre le crime & la foiblesse. Toutes les contraventions le payoienc de la vie.</p>
+        <h3 id="chap-vii"><span class="block uppercase">Chapitre VII.</span><span class="italic"> Nouvelle preuve de ce qui précede, tirée de la rigueur des anciennes loix.</span></h3>
+        <p><span class="smallcaps">Si</span> l'on doutoit encore de l'origine que je donne aux loix, il seroit facile d'achever de se convaincre qu'elle est juste, en examinant les premieres ordonnances légales, dont l'histoire nous ait conservé le souvenir. On voit qu'elles sont toutes d'une sévérité effrayante. La mort étoit le seul châtiment qu'elles prononçassent. Elles n'admettoient point de distinction entre le crime & la foiblesse. Toutes les contraventions le payoienc de la vie.</p>
         <p>On voit dans la <i>Genese</i> une femme veuve condamnée au feu par ses propres parents, pour être devenue grosse, après avoir essayé plusieurs fois inutilement d'obtenir un mari <i><a id="chapitre-vii-a-source" href="#chapitre-vii-a">(a)</a></i>. Presque toutes les loix de <i>Moïse</i> menacent du dernier supplice. Personne n'ignore ce qu'on a dit de celles de <i>Dracon</i>, ce fameux législateur des <i>Atheniens</i>, à qui on reprochoit d'avoir écrit son code avec du sang. Les antiquités de toutes les nations présentent le même spectacle. On y voit les châtiments poussés jusqu'à la cruauté.</p>
         <p>Il est clair que cette extrême rigueur n'a pu venir que de la grossiéreté des hommes qu’on avoit à conduire. Un cheval dressé se gouverne avec une baguette. L'éperon & la bride ne suffisent pas pour le faire obéir avant qu'il soit dompté. De même la société perfectionnée a mille expédients qui préviennent les fautes, ou qui servent de mesure, pour ne pas excéder la proportion quand on les punir. Mais chez les brigands vainqueurs dont nous avons parlé, la force étoit le seul moyen qu'on pût employer pour les réprimer, puisque c'étoit le seul dont ils connussent l'importance. Il les falloit épouvanter avant que de les éclairer.</p>
         <p>Comment persuader aux complices de la premiere violence, que son succès même étoit une raison pour n'en plus commettre? Comment les convaincre tous qu'après avoir eu le droit de dépouiller un malheureux agriculteur, leur propre intérêt exigeoit qu'ils se défissent de ce droit auquel seul ils devoient leur aisance?</p>
@@ -204,8 +188,8 @@
         <p>En général les peuples pasteurs abhorrent le sang, jusqu'à ce que la guerre soit venue souiller leurs yeux, & endurcir leurs ames. Ils donnent dans l'excès de la mollesse, plutôt que dans celui de la dureté. De toutes les vertus donc ils ont l'habitude, une attention tendre & compatissante est celle qu'ils exercent avec plus de complaisance. Ils n'auroient donc pas établi des loix aveugles & sanguinaires. Ils ne se seroient pas assujettis à des regles impitoyables, dont ils n'auroient pas eu besoin.</p>
         <p>Il a fallu pour les rendre nécessaires, que la douceur fût subjuguée par la barbarie. Alors la justice s'éleva sur la terre entre les bras de la rigueur. Elle fit briller un glaive étincelant pour arrêter des hommes féroces. Ils étoient accoutumés à faire couler le sang des animaux. Elle leur montra leur propre sang prêt à couler. Pour les empêcher de faire de leurs armes un usage arbitraire, elle leur fit voir un poignard tout prêt à les percer eux-mêmes. Par cet aspect terrible, elle procura du moins à la terre une apparence de tranquillité.</p>
         <p id="chapitre-vii-a"><a href="#chapitre-vii-a-source">(a)</a> Voyez la <i>Genese</i>, chap. 38, V. 24</p>
-        <h3>CHAPITRE VIII. Effet des loix.</h3>
-        <p>Depuis cette époque, l'homme, enchaîné par ses propres institutions, vécut enfermé sur la terre comme les troupeaux dans leurs étables. Il ne lui fut plus possible de faire de mouvements que ceux que les loix lui prescrivent. Il ne lui fut permis d'aller chercher sa pâture, que dans les prairies qu'elles lui assignerent. Il n'eut droit de sortir pour s'y rendre, que par la porte qu'elles se chargerent de lui indiquer.</p>
+        <h3 id="chap-viii"><span class="block uppercase">Chapitre VIII.</span><span class="italic"> Effet des loix.</span></h3>
+        <p><span class="smallcaps">Depuis</span> cette époque, l'homme, enchaîné par ses propres institutions, vécut enfermé sur la terre comme les troupeaux dans leurs étables. Il ne lui fut plus possible de faire de mouvements que ceux que les loix lui prescrivent. Il ne lui fut permis d'aller chercher sa pâture, que dans les prairies qu'elles lui assignerent. Il n'eut droit de sortir pour s'y rendre, que par la porte qu'elles se chargerent de lui indiquer.</p>
         <p>Dès cet instant son existence cessa, pour ainsi dire, de lui appartenir. Ses bras, ses pensées, sa vie, tout fut resserré dans un dépôt commun, dont l'usage ne fut plus à la discrétion. Ses moindres démarches lui furent tracées.</p>
         <p>Lorsque cédant à quelque mouvement naturel, il risquoit de blesser l'intérêt général devenu le seul sacré, le seul respectable, il se trouva dans l'impuissance de faire sa volonté. Il se sentit même forcé de suivre une impulsion contraire, comme un malade perclus de ses membres, que le chirurgien retourne malgré ses efforts, & place dans la situation la plus commode pour le panser.</p>
         <p>Sans cette manœuvre, il est clair que jamais aucune association n'auroit pu subsister entre les hommes. Les vues particulieres choquant toujours, ou le plus souvent les vues générales; chacun par le droit naturel étant autorisé à ne penser qu'à soi, à sacrifier à son bien-être celui des autres; la force étant la seule raison suffisante pour appuyer les demandes, & la foiblesse la seule incapable de justifier des refus, une guerre éternelle, ou une entiere indifférence auroit été le partage du genre humain.</p>
@@ -216,8 +200,8 @@
         <p>La justice est le desir perpétuel & constant de rendre à chacun ce qui lui appartient: <i><span lang="la">Justitia est perpetua do constans voluntas jus suum cuique tribuendi</span> <a id="chapitre-VIII-a-source" href="#chapitre-VIII-a">(a)</a></i>, disent les jurisconsultes; mais le pauvre n'a à lui que son indigence. Les loix ne peuvent donc pas lui conserver autre chose. Elles tendent à mettre l'homme qui possede du superflu, à couvert des attaques de celui qui n'a pas le nécessaire. C'est là leur véritable esprit; & si c'est un inconvénient, il est inséparable de leur existence.</p>
         <p>Les <i>codes</i> les plus étendus se réduisent donc au développement de cet unique principe, qu'on doit pour le bien général déroger au droit naturel qui rendoit toutes les possessions communes, & se conformer au droit civil qui les particularisoit toutes.</p>
         <p id="chapitre-VIII-a"><a href="#chapitre-VIII-a-source">(a)</a> <i>Ulpien</i> cité dans le <i>digeste</i>, liv. I, tit. I</p>
-        <h3>CHAPITRE IX. Du droit naturel. Que le véritable droit naturel ne peut pas exister avec la Société. Ce que c'est que celui à qui l'on donne ce nom. Division de cet ouvrage.</h3>
-        <p>On se permet encore au milieu de nos conventions sociales, de reparler de ce <i>droit naturel</i>. On le trouve souvent rappellé dans les livres savants de nos jurisconsultes. Mais il est évident que l'espece de droit qu'on veut bien honorer de ce beau nom, n'est point celui qui le mérite. Le prétendu droit naturel qui subsiste parmi nous, est une production factice, absolument étrangere à la nature, & due tout entiere à l'art qui lui a donné la naissance.</p>
+        <h3 id="chap-ix"><span class="block uppercase">Chapitre IX.</span><span class="italic"> Du droit naturel. Que le véritable droit naturel ne peut pas exister avec la Société. Ce que c'est que celui à qui l'on donne ce nom. Division de cet ouvrage.</span></h3>
+        <p><span class="smallcaps">On</span> se permet encore au milieu de nos conventions sociales, de reparler de ce <i>droit naturel</i>. On le trouve souvent rappellé dans les livres savants de nos jurisconsultes. Mais il est évident que l'espece de droit qu'on veut bien honorer de ce beau nom, n'est point celui qui le mérite. Le prétendu droit naturel qui subsiste parmi nous, est une production factice, absolument étrangere à la nature, & due tout entiere à l'art qui lui a donné la naissance.</p>
         <p>Il n'existe pas le moindre vestige du premier dans la société. Il est même incompatible avec elle, & l'un emporte nécessairement la destruction de l'autre. L'essence du droit naturel est une liberté indéfinie. Celle du droit social est la privation entiere de cette premiere liberté. S'il en subsistoit encore la moindre partie après la formation des sociétés, quel pouvoir auroient les loix sur cette partie qui ne leur seroit point soumise? L'état de la nature n'admet ni juges, ni prohibitions, ni propriétés: si l'indépendance qui le constitue se soutenoit relativement à quel qu'un de ces objets, comment s'y prendroit-on pour prouver la validité des ordonnances qui concernent tous les autres?</p>
         <p>Leur but est d'empêcher que personne ne puisse se soustraire à leur autorité. Elles travaillent à soumettre tous les hommes, de quelque état qu'ils soient, dans quelque occasion que ce soit. Il faut donc qu'elles leur ôtent, sans exception, l'usage de leur volonté. Il faut qu'elles les dépouillent de toute espece de droit qui contrediroit celui qu'elles établissent, qu'elles ne leur laissent aucune issue pour se dérober à l'assujettissement où elles les réduisent.</p>
         <p>Si une prison a vingt portes, il ne suffit pas d'en fermer, d'en cadenasser exactement dix-neuf, puis que tous les prisonniers se sauveront par la vingtieme qui resteroit seule ouverte. De même, si la société ou les loix ne s'emparoient d'abord entiérement de toutes les facultés de l'homme, si elles n'anéantissoient sans retour cette indépendance originelle qu'il a reçue de la nature, ce seroit bien en vain qu'on lui intimeroit des ordres; il resteroit toujours le maître de les éluder, en vertu de cette portion de libre arbitre politique, où nous supposons qu'il se seroit maintenu.</p>
